@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>2nd Web Page with Bootstrap</title>
+
+    <!-- Bootstrap icon cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <!-- Bootstrap CDN link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <!-- Nav menu -->
+        <nav class="navbar navbar-expand-lg bg-danger">
+            <div class="container-fluid">
+                <a class="navbar-brand fs-4 text-white" href="Class-12(2nd_Web).html">Asadullah</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Products</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Menu
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                        <button class="btn btn-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Slider -->
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="Image/Assets/photo-1519057016395-76b7690327e0.jpg" class="d-block w-100" alt="Slider-1">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="Image/Assets/photo-1525328437458-0c4d4db7cab4.jpg" class="d-block w-100" alt="Slider-2">
+                </div>
+                <div class="carousel-item">
+                    <img src="Image/Assets/photo-1542052125323-e69ad37a47c2.jpg" class="d-block w-100" alt="Slider-3">
+                </div>
+                <div class="carousel-item">
+                    <img src="Image/Assets/photo-1556740714-a8395b3bf30f.jpg" class="d-block w-100" alt="Slider-4">
+                </div>
+                <div class="carousel-item">
+                    <img src="Image/Assets/photo-1559765286-04431a159534.jpg" class="d-block w-100" alt="Slider-5">
+                </div>
+                <div class="carousel-item">
+                    <img src="Image/Assets/photo-1580828343064-fde4fc206bc6.jpg" class="d-block w-100" alt="Slider-6">
+                </div>
+                <div class="carousel-item">
+                    <img src="Image/Assets/photo-1605902711622-cfb43c4437b5.jpg" class="d-block w-100" alt="Slider-7">
+                </div>
+                <div class="carousel-item">
+                    <img src="Image/Assets/photo-1607082349566-187342175e2f.jpg" class="d-block w-100" alt="Slider-8">
+                </div>
+                <div class="carousel-item">
+                    <img src="Image/Assets/photo-1607082350899-7e105aa886ae.jpg" class="d-block w-100" alt="Slider-9">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Product details -->
+        <section class="container mt-5">
+            <div class="row">
+                <div class="col-lg-5">
+                    <img src="Image/Assets/product model.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-7">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="Image/Assets/headphone_colorfull.jpg" class="card-img-top img-fluid"
+                                    alt="headphone">
+                                <div class="card-body">
+                                    <h3 class="card-text">Smart Head Phone</h3>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt pariatur amet
+                                        officiis dolore enim architecto.</p>
+                                    <div class="d-flex justify-content-between">
+                                        <span class="text-primary">BDT: 2999</span>
+                                        <span class="text-warning">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-half"></i>
+                                            <i class="bi bi-star"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="Image/Assets/dslr_canon_camera.jpg" class="card-img-top img-fluid"
+                                    alt="DSLR Camera">
+                                <div class="card-body">
+                                    <h3 class="card-text">DSLR Canon Camera</h3>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt pariatur amet
+                                        officiis dolore enim architecto.</p>
+                                    <div class="d-flex justify-content-between">
+                                        <span class="text-primary">BDT: 59999</span>
+                                        <span class="text-warning">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-half"></i>
+                                            <i class="bi bi-star"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="Image/Assets/full_setup_dextop_photography.jpg" class="card-img-top img-fluid"
+                                    alt="Dextop">
+                                <div class="card-body">
+                                    <h3 class="card-text">Full Setup Dextop</h3>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt pariatur amet
+                                        officiis dolore enim architecto.</p>
+                                    <div class="d-flex justify-content-between">
+                                        <span class="text-primary">BDT: 49999</span>
+                                        <span class="text-warning">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-half"></i>
+                                            <i class="bi bi-star"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="Image/Assets/laptop_image.jpg" class="card-img-top img-fluid" alt="Laptop">
+                                <div class="card-body">
+                                    <h3 class="card-text"> Hightech Laptop</h3>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt pariatur amet
+                                        officiis dolore enim architecto.</p>
+                                    <div class="d-flex justify-content-between">
+                                        <span class="text-primary">BDT: 49999</span>
+                                        <span class="text-warning">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-half"></i>
+                                            <i class="bi bi-star"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="Image/Assets/dji_drone_image.jpg" class="card-img-top img-fluid"
+                                    alt="DJI FPV">
+                                <div class="card-body">
+                                    <h3 class="card-text">Smart DJI FPV</h3>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt pariatur amet
+                                        officiis dolore enim architecto.</p>
+                                    <div class="d-flex justify-content-between">
+                                        <span class="text-primary">BDT: 2999</span>
+                                        <span class="text-warning">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-half"></i>
+                                            <i class="bi bi-star"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="Image/Assets/dji_fpv_smart_googles.jpg" class="card-img-top img-fluid"
+                                    alt="DJI Smart Googles">
+                                <div class="card-body">
+                                    <h3 class="card-text">DJI Googles</h3>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt pariatur amet
+                                        officiis dolore enim architecto.</p>
+                                    <div class="d-flex justify-content-between">
+                                        <span class="text-primary">BDT: 59999</span>
+                                        <span class="text-warning">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-half"></i>
+                                            <i class="bi bi-star"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="text-center mt-5">
+                <h3>Trending Products</h3>
+            </div>
+            <div class="row">
+                <div class="col-md-3 mt-4 shadow-2">
+                    <div class="d-flex justify-content-between">
+                        <span class="text-white bg-danger px-3  rounded">Sale</span>
+                        <span class="text-danger">Compare</span>
+                    </div>
+                    <img src="Image/Assets/jj.jpg" class="img-fluid" alt="">
+                    <span>DJI FPV Drone</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <div class="d-flex justify-content-between">
+                        <span class="text-primary">BDT: 59999</span>
+                        <span class="text-warning">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                            <i class="bi bi-star"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-4 shadow-2">
+                    <div class="d-flex justify-content-between">
+                        <span class="text-white bg-danger px-3  rounded">Sale</span>
+                        <span class="text-danger">Compare</span>
+                    </div>
+                    <img src="Image/Assets/jj.jpg" class="img-fluid" alt="">
+                    <span>DJI FPV Drone</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <div class="d-flex justify-content-between">
+                        <span class="text-primary">BDT: 59999</span>
+                        <span class="text-warning">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                            <i class="bi bi-star"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-4 shadow-2">
+                    <div class="d-flex justify-content-between">
+                        <span class="text-white bg-danger px-3  rounded">Sale</span>
+                        <span class="text-danger">Compare</span>
+                    </div>
+                    <img src="Image/Assets/jj.jpg" class="img-fluid" alt="">
+                    <span>DJI FPV Drone</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <div class="d-flex justify-content-between">
+                        <span class="text-primary">BDT: 59999</span>
+                        <span class="text-warning">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                            <i class="bi bi-star"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-4 shadow-2">
+                    <div class="d-flex justify-content-between">
+                        <span class="text-white bg-danger px-3  rounded">Sale</span>
+                        <span class="text-danger">Compare</span>
+                    </div>
+                    <img src="Image/Assets/jj.jpg" class="img-fluid" alt="">
+                    <span>DJI FPV Drone</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <div class="d-flex justify-content-between">
+                        <span class="text-primary">BDT: 59999</span>
+                        <span class="text-warning">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                            <i class="bi bi-star"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
