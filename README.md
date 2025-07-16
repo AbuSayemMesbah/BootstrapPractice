@@ -1,55 +1,59 @@
 # BootstrapPractice
 
-```html
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
-  </head>
-  <body>
-    <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg bg-danger">
-            <div class="container-fluid">
-              <a class="navbar-brand fs-4" href="#">BCC</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                  </li>
-                </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-              </div>
-            </div>
-          </nav>
-    </div>
+```css
+.container{
+    width: 1280px;
+    margin: 0px auto;
+    box-shadow: 0px 0px 20px 3px #000;
 
+}
+#header{
+    background-color: #3498db;
+}
+#navigation{
+    background: #a04000;
+    width: 100%;
+    height: 35px;
+    margin: 5px 0;
+}
+#navigation ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+#navigation li{
+    float: left;
+    border-right: 1px solid #fff;
+}
+#navigation a:link{
+    display: block;
+    width: 120px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+}
+#navigation a:hover{
+    color: #000;
+}
+.sidebar{
+    width: 300px;
+    float: left;
+    background-color: #1f6c7e;
+    padding: 10px;
+}
+.contant{
+    width: 920px;
+    float: right;
+    padding: 10px;
+}
+#footer{
+    clear: both; 
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
-  </body>
-</html>
 ```
